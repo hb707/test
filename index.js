@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
 const app = express();
-const txtfile = require("./public/cryptoapisverifydomain.txt");
 
 app.use(express.static("./public"));
 app.use(express.urlencoded({ extended: true }));
